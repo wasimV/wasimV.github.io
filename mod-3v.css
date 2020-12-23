@@ -1,0 +1,84 @@
+.header{
+	border:3px solid black;
+	width:101%;
+	height:300px;
+	margin-top:-8.5px;
+	margin-left: -8.5px;
+	background: gray;
+	margin-bottom: 30px;
+
+}
+#text{
+	padding:12px 20px;
+	font-weight: bold;
+	font-size:25px;
+	font-family: Arial, sans-serif;
+	color:black;
+}
+.tittle{
+	text-align: center;
+	font-size:30px;
+	font-family: Arial, sans-serif;
+
+}
+.container ul li{
+	border:1px solid black;
+	width:130%;
+	height:400px;
+	padding:10px 10px;
+	list-style-type: none;
+	margin-top:50px;
+	margin-left :-165px;
+	margin-bottom: 45px;
+	background:grey;
+}
+h1{
+	font-size:22px;
+	text-align: center;
+}
+h2{
+	font-size:22px;
+	text-align: center;
+}
+h3{
+	font-size:22px;
+	text-align: center;
+}
+
+.navbar
+{
+ padding-bottom :  4.5rem;
+}
+/* navigation bar */
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  
+}
+a
+{
+color: blue;
+}
+.collapse navbar-collapse #navbarTogglerDemo02 ul li{
+	background-color: white;
+}
+
+@media(max-width: 991px) and (min-width: 768px)
+{
+	.container ul li {
+		width:145%;
+		height:600px;
+	}
+}
